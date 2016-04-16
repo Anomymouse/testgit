@@ -28,6 +28,7 @@
     NSLog(@"This is the change from test1!!!");
     NSLog(@"This is the change from develop branch!!");
     NSLog(@"This is the change from develop merge to test 1!!!");
+    NSLog(@"This is the change from test2!!!");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
