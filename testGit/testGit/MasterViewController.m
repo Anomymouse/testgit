@@ -26,6 +26,8 @@
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     NSLog(@"This is the change from test1!!!");
+    NSLog(@"This is the change from develop branch!!");
+    NSLog(@"This is the change from develop merge to test 1!!!");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
