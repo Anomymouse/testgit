@@ -33,6 +33,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     self.clearsSelectionOnViewWillAppear = self.splitViewController.isCollapsed;
     [super viewWillAppear:animated];
+    NSLog(@"develop change!!");
 }
 
 - (void)didReceiveMemoryWarning {
